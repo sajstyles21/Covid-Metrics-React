@@ -1,0 +1,35 @@
+.outerFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+.leftSide {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.rightSide {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  margin: 10px;
+}
+p.desc {
+  word-break: break-word;
+  margin-top: 10px;
+}
+.socialLinks {
+  margin-top: 10px;
+}
+
+.rightSide p {
+  margin-top: 10px;
+}

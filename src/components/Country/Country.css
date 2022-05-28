@@ -1,0 +1,15 @@
+.countryContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.countryMap {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+}

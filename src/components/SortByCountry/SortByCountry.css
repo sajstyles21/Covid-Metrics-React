@@ -1,0 +1,45 @@
+.outerBox {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  margin: 10px;
+}
+
+.countryName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #000;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.topBar {
+  display: flex;
+  margin-top: 55px;
+}
+
+.innerDiv {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: x-large;
+}
+
+.casesTitle {
+  margin-left: 10px;
+}
+
+.totalCount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.innerCount {
+  flex: 1;
+  text-align: center;
+}
