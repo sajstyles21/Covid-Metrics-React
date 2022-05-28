@@ -19,7 +19,7 @@ const Footer = () => {
             <b>Covid Metrics</b>
           </span>
           <p className="desc">
-            All latest information and metrics about Covid 19 for all countries.
+            All latest information and metrics about Covid-19 for all countries.
           </p>
           <div className="socialLinks">
             <a href="https://www.facebook.com/SaJsTyl/" target="_blank">
