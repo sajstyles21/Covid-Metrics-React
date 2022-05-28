@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Continents.css";
 import ChartRace from "react-chart-race";
 import Hoc from "../../Hoc";

@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React from "react";
 import "./MostCases.css";
 import ChartRace from "react-chart-race";
 import Hoc from "../../Hoc";

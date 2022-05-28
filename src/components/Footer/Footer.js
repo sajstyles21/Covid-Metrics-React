@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Facebook,
-  Instagram,
-  MailOutline,
-  Phone,
-  Pinterest,
-  Room,
-  Twitter,
-} from "@material-ui/icons";
+import { Facebook, Instagram, Twitter } from "@material-ui/icons";
 import "./Footer.css";
 
 const Footer = () => {
@@ -22,13 +14,25 @@ const Footer = () => {
             All latest information and metrics about Covid-19 for all countries.
           </p>
           <div className="socialLinks">
-            <a href="https://www.facebook.com/SaJsTyl/" target="_blank">
+            <a
+              href="https://www.facebook.com/SaJsTyl/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <Facebook />
             </a>
-            <a href="https://www.instagram.com/surajax/" target="_blank">
+            <a
+              href="https://www.instagram.com/surajax/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <Instagram />
             </a>
-            <a href="https://twitter.com/SaJsTyLeS" target="_blank">
+            <a
+              href="https://twitter.com/SaJsTyLeS"
+              rel="noreferrer"
+              target="_blank"
+            >
               <Twitter />
             </a>
           </div>

@@ -106,7 +106,7 @@ const SortByCountry = () => {
           <>
             <div className="countryName">
               <h3>{data.country}</h3>
-              <img width="100" height="50" src={data.flag} />
+              <img width="100" alt={data.country} height="50" src={data.flag} />
             </div>
             <div className="innerDiv">
               <div className="totalCount">

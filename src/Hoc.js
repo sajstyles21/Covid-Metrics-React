@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { v4 as uuid } from "uuid";
 import { ALL_COUNTRIES_DATA, ALL_CONTINENTS_DATA } from "./apiUrls";
 import { publicRequest } from "./requestMethods";

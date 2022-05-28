@@ -1,4 +1,4 @@
-import React, { useMemo, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Country.css";
 import { MapContainer, TileLayer, Marker, Tooltip } from "react-leaflet";
 import { ALL_COUNTRIES_DATA } from "../../apiUrls";
