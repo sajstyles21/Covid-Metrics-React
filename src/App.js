@@ -1,6 +1,5 @@
 import Country from "./components/Country/Country";
 import Header from "./components/Header/Header";
-import HOC from "./Hoc";
 import CountriesData from "./components/MostCases/MostCases";
 import ContinentsData from "./components/Continents/Continents";
 import "./App.css";
@@ -22,4 +21,4 @@ function App() {
   );
 }
 
-export default HOC(App);
+export default App;
