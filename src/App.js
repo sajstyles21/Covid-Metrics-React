@@ -22,5 +22,4 @@ function App() {
   );
 }
 
-App = HOC(App);
-export default App;
+export default HOC(App);
